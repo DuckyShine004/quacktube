@@ -6,7 +6,7 @@ import ffmpeg from 'fluent-ffmpeg';
 const storage = new Storage();
 
 const rawVideoBucketName = 'quacktube-raw-videos';
-const processedVideoBucketName = 'quacktube-raw-videos';
+const processedVideoBucketName = 'quacktube-processed-videos';
 
 const localRawVideoPath = './raw-videos';
 const localProcessedVideoPath = './processed-videos';
