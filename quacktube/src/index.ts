@@ -8,6 +8,8 @@ import {
   uploadProcessedVideo,
 } from './storage';
 
+require('dotenv').config();
+
 setupDirectories();
 
 const app = express();
